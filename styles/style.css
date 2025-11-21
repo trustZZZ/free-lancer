@@ -1,0 +1,45 @@
+.header {
+  padding: 40px 168px 0;
+  margin-bottom: 88px;
+  background-color: #1b2944;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  display: block;
+}
+
+.header__link-discord {
+  width: 100px;
+  height: 28px;
+  background-image: url("../images/logo.svg");
+}
+
+.header__link-social {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header__link-git {
+  background-image: url("../images/github.svg");
+  width: 20px;
+  height: 20px;
+}
+
+.header__link-twiter {
+  background-image: url("../images/twitter.svg");
+  width: 20px;
+  height: 16px;
+}
+.header__link-instagram {
+  background-image: url("../images/instagram.svg");
+  width: 20px;
+  height: 20px;
+}
+.header__link-facebook {
+  background-image: url("../images/facebook.svg");
+  width: 20px;
+  height: 20px;
+}
