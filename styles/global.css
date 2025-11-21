@@ -25,6 +25,10 @@ blockquote {
   padding: 0;
 }
 
+section {
+  padding: 88px 168px;
+}
+
 a {
   color: inherit;
 }

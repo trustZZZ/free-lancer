@@ -107,7 +107,23 @@
 }
 
 .visit-card__image-avatar {
-    display: block;
-    width: 384px;
-    height: 384px;
+  display: block;
+  width: 384px;
+  height: 384px;
+}
+
+.advantages {
+  background-color: #141f35;
+}
+
+.projects {
+  background-color: #1b2944;
+}
+
+.gallary {
+  background-color: #141f35;
+}
+
+.contact {
+  background-color: #1b2944;
 }
