@@ -168,15 +168,84 @@
 }
 
 .agreement-img {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 .conversation-img {
-    margin-left: 6px;
+  margin-left: 6px;
 }
 
 .projects {
   background-color: #1b2944;
+  padding-top: 93px;
+}
+
+.projects__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #ffffff;
+  margin-bottom: 49px;
+}
+
+.project__cards {
+  display: flex;
+  gap: 16px;
+}
+
+.card {
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 32px;
+  min-width: 304px;
+  min-height: 304px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.card_chamarel {
+    background-image: url("../images/human.svg");
+}
+
+.card_golf {
+    background-image: url("../images/golf.svg");
+}
+
+.card_waterfall {
+    background-image: url("../images/waterfall.svg");
+}
+
+.card__text {
+  display: block;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  max-width: 170px;
+}
+
+.card_button {
+  background: #ec1f46;
+  box-shadow: 0px 2px 0px #ce1c3e;
+  border-radius: 6px;
+  border-style: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 130%;
+  text-align: center;
+  width: 120px;
+  height: 36px;
+  color: #ffffff;
 }
 
 .gallary {
