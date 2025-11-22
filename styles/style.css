@@ -210,15 +210,15 @@
 }
 
 .card_chamarel {
-    background-image: url("../images/human.svg");
+  background-image: url("../images/human.svg");
 }
 
 .card_golf {
-    background-image: url("../images/golf.svg");
+  background-image: url("../images/golf.svg");
 }
 
 .card_waterfall {
-    background-image: url("../images/waterfall.svg");
+  background-image: url("../images/waterfall.svg");
 }
 
 .card__text {
@@ -250,6 +250,10 @@
 
 .gallary {
   background-color: #141f35;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
 }
 
 .contact {
