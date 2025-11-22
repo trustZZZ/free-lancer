@@ -205,6 +205,23 @@
   gap: 16px;
   justify-content: flex-end;
   flex-wrap: wrap;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  width: 304px;
+  height: 304px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(
+    179.83deg,
+    rgba(196, 196, 196, 0) 35.34%,
+    #213e60 99.85%
+  );
+  border-radius: 6px;
+  z-index: 1;
 }
 
 .card_chamarel {
@@ -228,6 +245,7 @@
   line-height: 28px;
   color: #ffffff;
   max-width: 170px;
+  z-index: 1;
 }
 
 .card_button {
@@ -244,6 +262,7 @@
   width: 120px;
   height: 36px;
   color: #ffffff;
+  z-index: 1;
 }
 
 .gallary {
