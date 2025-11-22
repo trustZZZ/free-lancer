@@ -195,8 +195,6 @@
 }
 
 .card {
-  background-repeat: no-repeat;
-  background-size: contain;
   padding: 32px;
   min-width: 304px;
   min-height: 304px;
@@ -206,6 +204,9 @@
   justify-content: flex-end;
   flex-wrap: wrap;
   position: relative;
+
+  background-color: #cecece;
+  border-radius: 6px;
 }
 
 .overlay {
@@ -216,9 +217,10 @@
   top: 0px;
 
   background: linear-gradient(
-    179.83deg,
-    rgba(196, 196, 196, 0) 35.34%,
-    #213e60 99.85%
+    180deg,
+    rgba(196, 196, 196, 0) 34%,
+    rgba(196, 196, 196, 0.5) 66%,
+    #213e60 100%
   );
   border-radius: 6px;
   z-index: 1;
@@ -245,7 +247,7 @@
   line-height: 28px;
   color: #ffffff;
   max-width: 170px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .card_button {
@@ -262,7 +264,7 @@
   width: 120px;
   height: 36px;
   color: #ffffff;
-  z-index: 1;
+  z-index: 2;
 }
 
 .gallary {
