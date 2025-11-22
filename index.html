@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vertka</title>
+    <title>Freelancer</title>
     <link href="./fonts/fonts.css" rel="stylesheet" />
     <link href="./styles/global.css" rel="stylesheet" />
     <link href="./styles/style.css" rel="stylesheet" />
@@ -28,7 +28,7 @@
             Разрабатываю сайты для малого и среднего бизнеса. У меня можно
             заказать дизайн и верстку небольшого сайта или интернет-магазина
           </p>
-          <button type="button" class="visit-card__button">
+          <button type="button" class="button visit-card__button">
             Бесплатная консультация
           </button>
         </div>
@@ -39,54 +39,81 @@
         />
       </section>
       <section class="advantages">
-        <p>Со мной удобно работать</p>
-        <div>
-          <img src="./images/offer-img.svg" alt="" />
-          <h2>По договору</h2>
-          <p>
-            Предоставлю все документы для бухгалтерии: договоры, счета и акты.
-            Работаю как ИП без НДС.
-          </p>
-        </div>
-        <div>
-          <img src="./images/deadline-img.svg" alt="" />
-          <h2>Точно в срок</h2>
-          <p>
-            В договоре прописана моя ответственность за срок проекта. Если
-            просрочу — плачу неустойку.
-          </p>
-        </div>
-        <div>
-          <img src="./images/agreement-img.svg" alt="" />
-          <h2>Ценник под вас</h2>
-          <p>
-            Если у вас нетиповой проект, сделаю рассчет цены за работу и
-            объясню, как складывается цена.
-          </p>
-        </div>
-        <div>
-          <img src="./images/steps-img.svg" alt="" />
-          <h2>Премежуточные итоги</h2>
-          <p>
-            Показываю работу поэтапно, а не в последий момент перед крайним
-            сроком.
-          </p>
-        </div>
-        <div>
-          <img src="./images/storage-img.svg" alt="" />
-          <h2>Хостинг и домен</h2>
-          <p>
-            Если мы договорились о цене проекта, в неё входит всё: домен и
-            хостинг на год + SSL сертификат.
-          </p>
-        </div>
-        <div>
-          <img src="./images/conversation-img.svg" alt="" />
-          <h2>Не брошу после сдачи</h2>
-          <p>
-            Научу вас или вашего сотрудника пользоваться сайтом, запишу
-            видео-инструкции.
-          </p>
+        <p class="advantages__title">Со мной удобно работать</p>
+        <div class="advantages_grid">
+          <!-- По договору -->
+          <div class="advantages_grid__block">
+            <img
+              src="./images/offer-img.svg"
+              alt=""
+              class="advantages_grid__image"
+            />
+            <h2 class="advantages_grid__title">По договору</h2>
+            <p class="advantages_grid__text">
+              Предоставлю все документы для бухгалтерии: договоры, счета и акты.
+              Работаю как ИП без НДС.
+            </p>
+          </div>
+          <!-- Точно в срок -->
+          <div class="advantages_grid__block">
+            <img
+              src="./images/deadline-img.svg"
+              alt=""
+              class="advantages_grid__image"
+            />
+            <h2 class="advantages_grid__title">Точно в срок</h2>
+            <p class="advantages_grid__text">
+              В договоре прописана моя ответственность за срок проекта. Если
+              просрочу — плачу неустойку.
+            </p>
+          </div>
+          <!-- Ценние под вас -->
+          <div class="advantages_grid__block">
+            <img
+              src="./images/agreement-img.svg"
+              alt=""
+              class="advantages_grid__image agreement-img"
+            />
+            <h2 class="advantages_grid__title">Ценник под вас</h2>
+            <p class="advantages_grid__text">
+              Если у вас нетиповой проект, сделаю рассчет цены за работу и
+              объясню, как складывается цена.
+            </p>
+          </div>
+          <!-- Премежуточные итоги -->
+          <div class="advantages_grid__block">
+            <img
+              src="./images/steps-img.svg"
+              alt=""
+              class="advantages_grid__image"
+            />
+            <h2 class="advantages_grid__title">Премежуточные итоги</h2>
+            <p class="advantages_grid__text">
+              Показываю работу поэтапно, а не  в последий момент перед  крайним
+              сроком.
+            </p>
+          </div>
+          <!-- Хостинг и домен  -->
+          <div class="advantages_grid__block">
+            <img
+              src="./images/storage-img.svg"
+              alt=""
+              class="advantages_grid__image"
+            />
+            <h2 class="advantages_grid__title">Хостинг и домен</h2>
+            <p class="advantages_grid__text">
+              Если мы договорились о цене проекта, в неё входит всё: домен и
+              хостинг на год + SSL сертификат.
+            </p>
+          </div>
+          <!-- Не брошу после сдачи -->
+          <div class="advantages_grid__block">
+            <img src="./images/conversation-img.svg" alt="" class="advantages_grid__image conversation-img"/>
+            <h2 class="advantages_grid__title">Не брошу после сдачи</h2>
+            <p class="advantages_grid__text">
+              Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.
+            </p>
+          </div>
         </div>
       </section>
       <section class="projects">
@@ -135,7 +162,7 @@
               placeholder="Ваш телефон"
             />
           </div>
-          <button>Бесплатная консультация</button>
+          <button type="button" class="button">Бесплатная консультация</button>
         </div>
         <div>
           <div>

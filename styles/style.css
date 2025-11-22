@@ -84,7 +84,7 @@
   margin-bottom: 38px;
 }
 
-.visit-card__button {
+.button {
   padding: 0;
   background: #ffbb01;
   box-shadow: 0px 4px 0px #b68500;
@@ -100,10 +100,12 @@
 
   color: #1b2944;
 
+  border-style: none;
+}
+
+.visit-card__button {
   min-width: 300px;
   min-height: 66px;
-
-  border-style: none;
 }
 
 .visit-card__image-avatar {
@@ -114,6 +116,63 @@
 
 .advantages {
   background-color: #141f35;
+}
+
+.advantages__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #ffffff;
+
+  margin-bottom: 48px;
+}
+
+.advantages_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 48px 16px;
+}
+
+.advantages_grid__block {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.advantages_grid__image {
+  width: 52px;
+  height: 52px;
+}
+
+.advantages_grid__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.advantages_grid__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #ffffff;
+}
+
+.agreement-img {
+    margin-left: 5px;
+}
+
+.conversation-img {
+    margin-left: 6px;
 }
 
 .projects {
