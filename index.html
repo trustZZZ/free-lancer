@@ -13,10 +13,10 @@
     <header class="header">
       <a href="#0" class="link header__link-discord"></a>
       <div class="header__link-social">
-        <a href="#" class="link header__link-git"></a>
-        <a href="#" class="link header__link-twiter"></a>
-        <a href="#" class="link header__link-instagram"></a>
-        <a href="#" class="link header__link-facebook"></a>
+        <a href="#" class="link link-git"></a>
+        <a href="#" class="link link-twiter"></a>
+        <a href="#" class="link link-instagram"></a>
+        <a href="#" class="link link-facebook"></a>
       </div>
     </header>
     <main>
@@ -125,20 +125,20 @@
         <h2 class="projects__title">Выполненные проекты</h2>
         <!-- The curious corner of chamarel -->
         <div class="project__cards">
-          <div class="card card_chamarel">
+          <article class="card card_chamarel">
             <p class="card__text">The curious corner of chamarel</p>
             <button type="button" class="card_button">Посмотреть</button>
-          </div>
+          </article>
           <!-- Gymkhana club golf course -->
-          <div class="card card_golf">
+          <article class="card card_golf">
             <p class="card__text">Gymkhana club golf course</p>
             <button type="button" class="card_button">Посмотреть</button>
-          </div>
+          </article>
           <!-- Tamarind falls hiking trip - full day -->
-          <div class="card card_waterfall">
+          <article class="card card_waterfall">
             <p class="card__text">Tamarind falls hiking trip - full day</p>
             <button type="button" class="card_button">Посмотреть</button>
-          </div>
+          </article>
         </div>
       </section>
       <section class="gallary">
@@ -155,42 +155,53 @@
         <img src="./images/gallary/bridge-video.svg" alt="" />
         <img src="./images/gallary/people.svg" alt="" />
       </section>
-      <section class="contact">
-        <h2>Свяжитесь со мной</h2>
-        <div>
-          <p>Можете просто оставить заявку, я позвоню вам сегодня</p>
-          <div>
-            <img src="./images/user-icon.svg" alt="" />
-            <input type="text" placeholder="Ваше имя" />
-          </div>
-          <div>
-            <img src="./images/phone-icon.svg" alt="" /><input
-              type="text"
-              placeholder="Ваш телефон"
-            />
-          </div>
-          <button type="button" class="button">Бесплатная консультация</button>
-        </div>
-        <div>
-          <div>
-            <h3>Телефон</h3>
-            <a href="tel:+79991234567">+7 999 123 45 67</a>
-          </div>
-          <div>
-            <h3>Почта</h3>
-            <a href="mailto:ivanov@mail.ru">ivanov@mail.ru</a>
-          </div>
-          <div>
-            <h3>Соцсети</h3>
-            <a href="#" class="link header__link-git"></a>
-            <a href="#" class="link header__link-twiter"></a>
-            <a href="#" class="link header__link-instagram"></a>
-            <a href="#" class="link header__link-facebook"></a>
-          </div>
-          <a href=""></a>
-        </div>
-      </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <h2 class="footer__title">Свяжитесь со мной</h2>
+      <article class="contact__card">
+        <p class="contact__card__text">
+          Можете просто оставить заявку, я позвоню вам сегодня
+        </p>
+        <div class="input__block">
+          <input
+            class="input input_name"
+            type="text"
+            placeholder="Ваше имя"
+            id="1"
+          />
+          <input
+            class="input input_phone"
+            type="text"
+            placeholder="Ваш телефон"
+            id="2"
+          />
+        </div>
+        <button type="button" class="button contact__card__button">
+          Бесплатная консультация
+        </button>
+      </article>
+      <article class="contacts">
+        <div class="contacts_item-phone">
+          <h3 class="contacts__title">Телефон</h3>
+          <a class="contacts__link" href="tel:+79991234567">+7 999 123 45 67</a>
+        </div>
+        <div class="contacts_item-mail">
+          <h3 class="contacts__title">Почта</h3>
+          <a class="contacts__link" href="mailto:ivanov@mail.ru"
+            >ivanov@mail.ru</a
+          >
+        </div>
+        <div class="contacts_item-social">
+          <h3 class="contacts__title">Соцсети</h3>
+          <div class="contacts__social-links">
+            <a href="#" class="link link-git"></a>
+            <a href="#" class="link link-twiter"></a>
+            <a href="#" class="link link-instagram"></a>
+            <a href="#" class="link link-facebook"></a>
+          </div>
+        </div>
+        <a class="footer__link-privacy-policy" href="#">Политика конфиденциальности</a>
+      </article>
+    </footer>
   </body>
 </html>
