@@ -209,7 +209,8 @@
   border-radius: 6px;
 }
 
-.overlay {
+.card.overlay::before{
+  content: "";
   position: absolute;
   width: 304px;
   height: 304px;
@@ -225,6 +226,7 @@
   border-radius: 6px;
   z-index: 1;
 }
+
 
 .card_chamarel {
   background-image: url("../images/human.svg");
@@ -331,6 +333,7 @@
 }
 
 .input {
+    display: block;
   padding: 20px 32px;
 
   width: 400px;
@@ -353,6 +356,7 @@
 }
 
 .input_name {
+  display: block;
   background: url("../images/user-icon.svg") no-repeat scroll 16px 18px;
   background-position-x: 32px;
   background-position-y: center;
@@ -429,9 +433,11 @@
   line-height: 28px;
 
   color: #ffffff;
+  text-decoration: none;
 }
 
 .contacts__social-links {
   display: flex;
   gap: 16px;
+  align-items: center;
 }
