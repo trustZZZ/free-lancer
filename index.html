@@ -89,7 +89,7 @@
             />
             <h2 class="advantages_grid__title">Премежуточные итоги</h2>
             <p class="advantages_grid__text">
-              Показываю работу поэтапно, а не в последий момент перед крайним
+              Показываю работу поэтапно, а не <br>в последий момент перед <br>крайним
               сроком.
             </p>
           </div>
@@ -116,7 +116,7 @@
             <h2 class="advantages_grid__title">Не брошу после сдачи</h2>
             <p class="advantages_grid__text">
               Научу вас или вашего сотрудника пользоваться сайтом, запишу
-              видео-инструкции.
+              <br>видео-инструкции.
             </p>
           </div>
         </div>
@@ -127,19 +127,19 @@
         <div class="project__cards">
           <article class="card card_chamarel overlay">
             <p class="card__text">The curious corner of chamarel</p>
-            <button type="button" class="card_button">Посмотреть</button>
+            <button type="button" class="card__button">Посмотреть</button>
           </article>
           <!-- Gymkhana club golf course -->
           <article class="card card_golf overlay">
             <div class="overlay"></div>
             <p class="card__text">Gymkhana club golf course</p>
-            <button type="button" class="card_button">Посмотреть</button>
+            <button type="button" class="card__button">Посмотреть</button>
           </article>
           <!-- Tamarind falls hiking trip - full day -->
           <article class="card card_waterfall overlay">
             <div class="overlay"></div>
             <p class="card__text">Tamarind falls hiking trip - full day</p>
-            <button type="button" class="card_button">Посмотреть</button>
+            <button type="button" class="card__button">Посмотреть</button>
           </article>
         </div>
       </section>
@@ -164,7 +164,7 @@
         <p class="contact__card__text">
           Можете просто оставить заявку, я позвоню вам сегодня
         </p>
-        <div class="input__block">
+        <form class="input__block" action="" method="post" name="feedback-form">
           <input
             class="input input_name"
             type="text"
@@ -177,10 +177,8 @@
             placeholder="Ваш телефон"
             id="2"
           />
-        </div>
-        <button type="button" class="button contact__card__button">
-          Бесплатная консультация
-        </button>
+          <input type="submit" class="button contact__card__button" value="Бесплатная консультация"/>
+        </form>
       </article>
       <article class="contacts">
         <div class="contacts_item-phone">
@@ -189,7 +187,8 @@
         </div>
         <div class="contacts_item-mail">
           <h3 class="contacts__title">Почта</h3>
-          <a class="contacts__link" href="mailto:ivanov@mail.ru">ivanov@mail.ru</a
+          <a class="contacts__link" href="mailto:ivanov@mail.ru"
+            >ivanov@mail.ru</a
           >
         </div>
         <div class="contacts_item-social">
@@ -201,7 +200,9 @@
             <a href="#" class="link link-facebook"></a>
           </div>
         </div>
-        <a class="footer__link-privacy-policy" href="#">Политика конфиденциальности</a>
+        <a class="footer__link-privacy-policy" href="#"
+          >Политика конфиденциальности</a
+        >
       </article>
     </footer>
   </body>
