@@ -209,7 +209,7 @@
   border-radius: 6px;
 }
 
-.card.overlay::before{
+.card.overlay::before {
   content: "";
   position: absolute;
   width: 304px;
@@ -226,7 +226,6 @@
   border-radius: 6px;
   z-index: 1;
 }
-
 
 .card_chamarel {
   background-image: url("../images/human.svg");
@@ -333,7 +332,7 @@
 }
 
 .input {
-    display: block;
+  display: block;
   padding: 20px 32px;
 
   width: 400px;
@@ -370,7 +369,6 @@
 
 .contact__card__button {
   min-width: 400px;
-  margin-top: ;
 }
 
 .contacts {
