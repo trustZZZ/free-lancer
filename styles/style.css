@@ -12,7 +12,7 @@
 .header__link-discord {
   width: 100px;
   height: 28px;
-  background-image: url("../images/logo.svg");
+  background-image: url('../images/logo.svg');
 }
 
 .header__link-social {
@@ -22,23 +22,23 @@
 }
 
 .link-git {
-  background-image: url("../images/github.svg");
+  background-image: url('../images/github.svg');
   width: 20px;
   height: 20px;
 }
 
 .link-twiter {
-  background-image: url("../images/twitter.svg");
+  background-image: url('../images/twitter.svg');
   width: 20px;
   height: 16px;
 }
 .link-instagram {
-  background-image: url("../images/instagram.svg");
+  background-image: url('../images/instagram.svg');
   width: 20px;
   height: 20px;
 }
 .link-facebook {
-  background-image: url("../images/facebook.svg");
+  background-image: url('../images/facebook.svg');
   width: 20px;
   height: 20px;
 }
@@ -53,7 +53,7 @@
 }
 
 .visit-card-job-name {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -63,7 +63,7 @@
 }
 
 .visit-card__header-name {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -73,7 +73,7 @@
 }
 
 .visit-card__text {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -89,7 +89,7 @@
   box-shadow: 0px 4px 0px #b68500;
   border-radius: 6px;
 
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -118,7 +118,7 @@
 }
 
 .advantages__title {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -148,7 +148,7 @@
 }
 
 .advantages_grid__title {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -157,7 +157,7 @@
 }
 
 .advantages_grid__text {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -179,7 +179,7 @@
 }
 
 .projects__title {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -210,7 +210,7 @@
 }
 
 .card.overlay::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 304px;
   height: 304px;
@@ -228,20 +228,20 @@
 }
 
 .card_chamarel {
-  background-image: url("../images/human.svg");
+  background-image: url('../images/human.svg');
 }
 
 .card_golf {
-  background-image: url("../images/golf.svg");
+  background-image: url('../images/golf.svg');
 }
 
 .card_waterfall {
-  background-image: url("../images/waterfall.svg");
+  background-image: url('../images/waterfall.svg');
 }
 
 .card__text {
   display: block;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -256,7 +256,7 @@
   box-shadow: 0px 2px 0px #ce1c3e;
   border-radius: 6px;
   border-style: none;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -284,7 +284,7 @@
 }
 
 .footer__title {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -315,7 +315,7 @@
 }
 
 .contact__card__text {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -343,7 +343,7 @@
   border-radius: 5px;
   border-style: none;
 
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -356,13 +356,13 @@
 
 .input_name {
   display: block;
-  background: url("../images/user-icon.svg") no-repeat scroll 16px 18px;
+  background: url('../images/user-icon.svg') no-repeat scroll 16px 18px;
   background-position-x: 32px;
   background-position-y: center;
 }
 
 .input_phone {
-  background: url("../images/phone-icon.svg") no-repeat scroll 16px 18px;
+  background: url('../images/phone-icon.svg') no-repeat scroll 16px 18px;
   background-position-x: 32px;
   background-position-y: center;
 }
@@ -398,7 +398,7 @@
 }
 
 .footer__link-privacy-policy {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -414,7 +414,7 @@
 }
 
 .contacts__title {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -425,7 +425,7 @@
 }
 
 .contacts__link {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

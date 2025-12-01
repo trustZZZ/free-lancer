@@ -1,14 +1,14 @@
 @font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto.ttf") format("truetype");
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto.ttf') format('truetype');
   font-weight: 700;
   color: #fff;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto.ttf") format("truetype");
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto.ttf') format('truetype');
   font-weight: 400;
   color: #fff;
   font-style: normal;
